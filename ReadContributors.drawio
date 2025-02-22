@@ -1,9 +1,57 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.10">
   <diagram name="Página-1" id="IUGqNhUDlkcD8MMDh_Og">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rwXTWaN8WXRginzP_gJd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rwXTWaN8WXRginzP_gJd-1" target="rwXTWaN8WXRginzP_gJd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rwXTWaN8WXRginzP_gJd-1" value="DL_controbutor_sii" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=light-dark(#E6E6E6,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="140" y="280" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rwXTWaN8WXRginzP_gJd-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rwXTWaN8WXRginzP_gJd-2" target="rwXTWaN8WXRginzP_gJd-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rwXTWaN8WXRginzP_gJd-2" value="BL_controbutor_sii" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=light-dark(#E6E6E6,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="140" y="200" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rwXTWaN8WXRginzP_gJd-4" value="Postgres&lt;br&gt;Contrubutor" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=light-dark(#E6E6E6,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="180" y="390" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rwXTWaN8WXRginzP_gJd-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rwXTWaN8WXRginzP_gJd-10" target="rwXTWaN8WXRginzP_gJd-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rwXTWaN8WXRginzP_gJd-10" value="SII" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=light-dark(#E6E6E6,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rwXTWaN8WXRginzP_gJd-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rwXTWaN8WXRginzP_gJd-11" target="rwXTWaN8WXRginzP_gJd-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rwXTWaN8WXRginzP_gJd-11" value="BL_FindContributor" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=light-dark(#E6E6E6,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="550" y="200" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rwXTWaN8WXRginzP_gJd-13" value="Queue&lt;br&gt;Contributor" style="ellipse;whiteSpace=wrap;html=1;fillColor=light-dark(#66B2FF,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="570" y="374" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rwXTWaN8WXRginzP_gJd-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rwXTWaN8WXRginzP_gJd-15" target="rwXTWaN8WXRginzP_gJd-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rwXTWaN8WXRginzP_gJd-15" value="Queue&lt;br&gt;Contributor" style="ellipse;whiteSpace=wrap;html=1;fillColor=light-dark(#66B2FF,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rwXTWaN8WXRginzP_gJd-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rwXTWaN8WXRginzP_gJd-16" target="rwXTWaN8WXRginzP_gJd-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rwXTWaN8WXRginzP_gJd-16" value="ProducerContributor" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=light-dark(#E6E6E6,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="550" y="280" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rwXTWaN8WXRginzP_gJd-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rwXTWaN8WXRginzP_gJd-17" target="rwXTWaN8WXRginzP_gJd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rwXTWaN8WXRginzP_gJd-17" value="Consumer Contributor" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=light-dark(#E6E6E6,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="140" y="120" width="160" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
