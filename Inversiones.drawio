@@ -1,9 +1,43 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Página-1" id="RBnfSr90j-0X7aMLOPNr">
-    <mxGraphModel>
+    <mxGraphModel dx="1004" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3ar6w7UThDjTsfeQRC2k-3" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="460" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="3ar6w7UThDjTsfeQRC2k-4" value="N8N Analisis Mercado" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3ar6w7UThDjTsfeQRC2k-3">
+          <mxGeometry x="10" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ar6w7UThDjTsfeQRC2k-5" value="Web_Investor&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3ar6w7UThDjTsfeQRC2k-3">
+          <mxGeometry x="170" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ar6w7UThDjTsfeQRC2k-6" value="Apis_Investor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3ar6w7UThDjTsfeQRC2k-3">
+          <mxGeometry x="330" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ar6w7UThDjTsfeQRC2k-7" value="DB_Postgres" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="3ar6w7UThDjTsfeQRC2k-3">
+          <mxGeometry x="200" y="150" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3ar6w7UThDjTsfeQRC2k-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3ar6w7UThDjTsfeQRC2k-3" source="3ar6w7UThDjTsfeQRC2k-4" target="3ar6w7UThDjTsfeQRC2k-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="110" />
+              <mxPoint x="230" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ar6w7UThDjTsfeQRC2k-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3ar6w7UThDjTsfeQRC2k-3" source="3ar6w7UThDjTsfeQRC2k-5" target="3ar6w7UThDjTsfeQRC2k-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ar6w7UThDjTsfeQRC2k-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3ar6w7UThDjTsfeQRC2k-3" source="3ar6w7UThDjTsfeQRC2k-6" target="3ar6w7UThDjTsfeQRC2k-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="110" />
+              <mxPoint x="230" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
